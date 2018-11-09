@@ -1,0 +1,310 @@
+.foto-home {
+    height: 200px;
+    border-radius: 50%;
+}
+.saudacao p {
+    font-size: 1.5em;
+    color: #99A;
+    line-height: 1;
+    padding: 2em;
+}
+
+.botao-index {
+    font-size: 1.25em;
+    background-color: #004466;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid transparent;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
+#botao-index2 {
+    font-size: 1.25em;
+    background-color: #FFF;
+    color:  #004466;
+    padding: .5em;
+    border: .2em solid transparent;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.botao-index:focus,
+.botao-index:hover {
+    background-color: lightblue;
+    color: white;
+    box-shadow: 0 0 1em rgb(163, 153, 255);
+}
+.secao-inicio {
+    padding: 2em;
+}
+
+
+.secao-inicio h2 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    text-shadow: 2px 2px #000;
+ 
+}
+.trabalhos {
+    background-color: #004466;
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+    background-size: 20px 20px;
+    background-attachment: fixed;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
+    display: -webkit-flex;
+    display:         flex;
+}
+.trabalhos ul {
+    display: -webkit-flex;
+    display:         flex;
+}
+.trabalhos li {
+    width: 10em;
+    height: 10em;
+    -webkit-flex: auto;
+            flex: auto;
+    border: .2em solid #000;
+}
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+    width: 10%;
+}
+.trabalhos li:nth-child(2) {
+    order: 1;
+    height: 8%;
+}
+.trabalhos li:nth-child(3) {
+    order: 3;
+    height: 5%;
+}
+.trabalhos img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#h3 {
+  font-family: "Shadows Into Light";
+  text-transform: uppercase;
+  font-size: 1em;
+  text-shadow: 3px 3px #000;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+footer h2 {
+    font-size: 3em;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+html,body {
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+    -webkit-perspective: 6px;
+            perspective: 6px;
+    -webkit-perspective-origin: 50% 160px;
+            perspective-origin: 50% 160px;
+}
+.palavras-home {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+.palavra-home {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-size: 400%;
+    color: rgba(101, 157, 202, .7);
+    position: absolute;
+    -webkit-animation: aparece 2s;
+            animation: aparece 2s;
+}
+.Ia {
+    top: 30%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+    opacity: .8;
+}
+.blockC {
+    top: 70%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+    opacity: .3;
+}
+.iOT{
+    top: 45%;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+    opacity: .6;
+}
+.colab {
+    top: 55%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+    opacity: .6;
+}
+.cleanC {
+    top: 30%;
+    left: 65%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+    opacity: .6;
+}
+.machineL {
+    top: 15%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+}
+.agile {
+    top: 50%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+}
+.designThink {
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+    opacity: .8;
+}
+.bigData {
+    top: 70%;
+    left: 65%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+    opacity: .6;
+}
+.digital {
+    top: 75%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+    opacity: .3;
+}
+.design {
+    top: 40%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+    opacity: .6;
+}
+.titulo-principal {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: relative;
+}
+
+.blog .inicio-post {
+    position: absolute;
+    top: 4em;
+    height: 8em;
+    left: 30%;
+    right: 4em;
+    background-color: #F2FFFC;
+    color: #000;
+    padding: 1.5em;
+    display: none;
+}
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
+}
+.blog a:hover,
+.blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
+}
+@-webkit-keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+@-webkit-keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+
+.imagens {
+    transition: box-shadow 1s, transform 1s;
+    transition-delay: 0,5s, 0s;
+}
+
+.imagens:nth-of-type(even) {
+    float: left;
+    margin-left: 0;
+}
+
+.imagens:nth-of-type(odd) {
+    float: right;
+    margin-right: 0;
+}
+
+.imagens:hover,
+.imagens:focus {
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+    transition-delay: 0s, 0,5s;
+}
+
+.imagens:nth-of-type(odd):hover,
+.imagens:nth-of-type(odd):focus {
+    transform: scale(1.2) ;
+}
+
+.imagens:nth-of-type(even):hover,
+.imagens:nth-of-type(even):focus {
+    transform: scale(1.2) ;
+}

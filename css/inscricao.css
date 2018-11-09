@@ -1,0 +1,98 @@
+.titulo-principal2 {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: relative;
+    text-align: center;
+    background-color: #006699;
+    color: #FFF;
+    padding: 3rem;
+    border-bottom: .5rem solid transparent;
+}
+
+.h1Inscricao {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-shadow: 3px 3px #000;
+}
+
+
+legend,
+label[for="mensagem"] {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.legendTitulo{
+    font-weight: inherit;
+}
+
+label[for],
+button {
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    padding: .25em .5em;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+button {
+    font-size: 1.25em;
+    background-color: #004466;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid transparent;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
+input:invalid {
+    box-shadow: 0 0 3px red;
+}
+
+input:valid{
+    box-shadow: 0 0 3px green;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #FFD;
+}
+
+button:focus,
+button:hover {
+    background-color: lightblue;
+    color: white;
+    box-shadow: 0 0 1em rgb(163, 153, 255);
+}
+
+main{
+width: 100%;
+padding-bottom: 0;
+float: none;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+footer h2 {
+    font-size: 2em;
+}
+footer a {
+    color: rgb(135, 152, 250);
+}
+
+form fieldset{
+    margin-top: 1em
+
+}
+
